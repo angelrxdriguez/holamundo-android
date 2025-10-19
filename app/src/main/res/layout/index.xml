@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/inicio">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="275dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#590000"
+        android:text="SALIR"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="737dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="275dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#0F3800"
+        android:text="INTERCAMBIAR"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/angkor"
+        android:shadowDx="@dimen/cardview_compat_inset_shadow"
+        android:text="Zelda"
+        android:textAllCaps="true"
+        android:textColor="#0F3800"
+        android:textSize="70sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0F3800"
+        android:backgroundTint="#0F3800"
+        android:fontFamily="@font/angkor"
+        android:shadowDx="@dimen/cardview_compat_inset_shadow"
+        android:text="Organiza tus personajes de ZELDA"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="275dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#0F3800"
+        android:text="MI BARAJA"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

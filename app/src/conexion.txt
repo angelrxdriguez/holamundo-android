@@ -1,0 +1,9 @@
+permiso internet android manifest
+servidor express cors
+Instalar mongo cors
+npm init -y
+npm install express mongodb cors
+node server.js
+
+
+mem daba error por no tener el http permitido:android:usesCleartextTraffic="true">
